@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family:Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.main {
+    margin: 150px 0;
+    padding: 10px 50px;
+    color: black;
+
+}
+header {
+    color: white;
+    text-align:right;
+    padding: 15px;
+}
+.navbar{
+    width: 80;
+    display: flex;
+    margin: auto;
+    padding: 30;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar .ima{
+    width: 80;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 3%;
+
+}
+nav ul {
+    list-style-type: none;
+    background-color: rgba(13, 18, 19, 0.988);
+    font-weight: 1000;
+    font-style: oblique;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(204, 191, 191);
+    text-decoration: none;
+}
+.navbar a {
+    font-size: 14px;
+    color: rgb(215, 203, 203);
+    font-variant: 100;
+    margin-top: 25px;
+    transition:1.0s;
+}
+.navbar a:hover,.navbar a.active
+{
+color: rgba(241, 239, 233, 0.972);
+
+}
+#st{
+    color:rgb(10, 14, 17);
+    font-size: 30px;
+}
+h4{
+    color:rgb(7, 11, 14);
+    line-height: 1.7;
+    bottom:0;
+}
+h1{
+    font-size: 60px;
+    line-height: 1.2;
+    color: rgb(10, 16, 21);
+    bottom: 0;
+}
+span{
+    color:rgb(5, 43, 194)
+}
+body{
+    background-color:rgb(176, 187, 230);
+}
+#about{
+    color: rgb(11, 18, 24);
+    font-size: x-large;
+    padding:20px 10%;
+}
+#ab{
+    margin-top: 10px;
+}
+.educ{
+    color: rgb(7, 9, 12);
+    font-size: x-large;
+    padding:20px 10%;
+}
+.ed{
+    margin-top: 10px;
+}
+.im{
+    width: 30%;
+    height: 50%;
+    position:absolute;
+    right: 40px;
+    top: 150px;
+}
+.icon a{
+    text-decoration: none;
+    color: #010806;
+
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #050808;
+    margin-right:-60px;
+    width: 30px;
+    height: 30px;
+}
